@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">PDF Generator</h1>
+   
+<form method="post" asp-controller="Home" asp-action="">
+    <label>&nbsp;</label>
+    <input type="submit" value="Generate PDF" />
+</form>
+</div>
